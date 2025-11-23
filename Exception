@@ -1,0 +1,14 @@
+package vehicle;
+
+public class Vehiclenotavailableexception {
+
+	public class VehicleNotAvailableException extends Exception {
+
+		
+		public VehicleNotAvailableException(String messages) {
+			super(messages);
+		}
+
+		
+	}
+}
