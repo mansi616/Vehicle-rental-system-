@@ -1,0 +1,42 @@
+package vehicle;
+
+public class car extends vehicle {
+
+	int vehicleId;
+	string name; 
+	double dailyrate;
+	
+
+		public <string> car(int vehicleId, string name, double dailyrate) {
+			super();
+			this.vehicleId = vehicleId;
+			this.name = name;
+			this.dailyrate = dailyrate;
+		}
+
+
+		public double calculateRentalCost(int days) {
+			// TODO Auto-generated method stub
+			return  getDailyRate() * days ; 
+		}
+
+
+		private vehicle. getDailyRate() {
+			// TODO Auto-generated method stub
+			return 0;
+		}
+
+
+		@Override
+		public void rent(int days) {
+			// TODO Auto-generated method stub
+			
+		}
+
+@Override
+public void returnvehicle(){
+
+}
+
+
+}
