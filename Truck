@@ -1,0 +1,39 @@
+package vehicle;
+
+
+	public class truck extends vehicle  {
+
+		public truck(String vehicleId, String name, double dailyRate) {
+			super(vehicleId, name, dailyRate);
+			// TODO Auto-generated constructor stub
+		}
+
+
+	
+
+		@Override
+		public double calculateRentalCost(int days) {
+			// TODO Auto-generated method stub
+			return  getDailyRate() * days ;
+		}
+
+
+		@Override
+		public void rent(int days) {
+			// TODO Auto-generated method stub
+			
+		}
+
+
+		@Override
+		public void returnVehicle() {
+			// TODO Auto-generated method stub
+			
+		}
+
+		
+	}
+
+		
+
+	}
