@@ -1,0 +1,53 @@
+package vehicle;
+
+import Customer.Customer;
+
+public class Bookingvehicle<Vehicle> {
+
+	public  class VehicleBooking  { 
+		String bookingid;
+		Customer customer;
+	    vehicle vehicle;
+		int days;
+		
+		
+	public VehicleBooking(String bookingid, Customer customer, vehicle vehicle, int days) {
+			super();
+			this.bookingid = bookingid;
+			this.customer = customer;
+			this.vehicle = vehicle;
+			this.days = days;
+		}
+
+		public String getBookingid() {
+			return bookingid;
+		}
+
+		public void setBookingid(String bookingid) {
+			this.bookingid = bookingid;
+		}
+
+		public Customer getCustomer() {
+			return customer;
+		}
+
+		public void setCustomer(Customer customer) {
+			this.customer = customer;
+		}
+
+		public vehicle getVehicle() {
+			return vehicle;
+		}
+
+		public void setVehicle(Vehicle vehicle) {
+			this.vehicle = vehicle;
+		}
+
+		public int getDays() {
+			return days;
+		}
+
+		public void setDays(int days) {
+			this.days = days;
+		} 
+    
