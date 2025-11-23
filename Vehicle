@@ -1,0 +1,68 @@
+package vehicle;
+
+import vehicle.rentable.Rentable;
+
+public abstract class vehicle implements Rentable {
+    public class vehicle {
+
+	}
+
+	private String vehicleId;
+    private String name;
+    private double dailyRate;
+    private boolean isAvailable;
+
+   
+	public vehicle(String vehicleId, String name, double dailyRate) {
+		super();
+		this.vehicleId = vehicleId;
+		this.name = name;
+		this.dailyRate = dailyRate;
+		this.isAvailable = isAvailable;
+	}
+	
+    public abstract double calculateRentalCost(int days);
+
+	public String getVehicleId() {
+		return vehicleId;
+	}
+
+	public void setVehicleId(String vehicleId) {
+		this.vehicleId = vehicleId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getDailyRate() {
+		return dailyRate;
+	}
+
+	public void setDailyRate(double dailyRate) {
+		this.dailyRate = dailyRate;
+	}
+
+	public boolean isAvailable() {
+		return isAvailable;
+	}
+
+	public void setAvailable(boolean isAvailable) {
+		this.isAvailable = isAvailable;
+	}
+
+	public void rent(int days) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void returnVehicle() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
